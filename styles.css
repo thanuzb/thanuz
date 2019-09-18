@@ -1,0 +1,132 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	width:960px;
+	margin:0 auto;
+	background-image:url("sky.jpeg");  
+}
+
+
+a:link,a:visited{
+	text-decoration:none;
+	font-weight:bold;
+	color:blue;
+}
+
+
+a:hover{
+	color:blue;
+}
+
+
+nav ul{
+	list-style-type:none;
+	padding:0px;
+}
+
+
+nav li{
+	display:inline;
+	float:left;
+}
+
+
+nav a:link,nav a:visited{
+	background-color: yellow;
+	color:red;
+	display:block;
+	padding: 20px,0px;
+	margin: 20px,0px;
+	text-align:center;
+	width: 192px;
+}
+
+
+nav a:hover{
+	color:red;
+}
+
+
+header{
+	height:150px;
+	background-image:url("Images/pattern.jpg");
+
+}
+
+figcaption{
+	text-align:center;
+	font-size:30;
+	font-weight: bold;
+	color:#020003;
+}
+
+header h1{
+	text-align: center;
+}
+
+
+.imgc{
+	margin-left: 330px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+
+.imgl{
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom:5px;
+}
+
+.imgr{
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom:5px;
+}
+
+h5{
+	text-align: center;
+}
+
+
+
+
+nav1 a{
+	
+	display:block;
+	padding: 10px,40px;
+	width:60px;
+	
+}
+
+nav1 li{
+	display:inline;
+	float:left;
+}
+
+nav1 ul{
+	list-style-type:none;
+	}
+
+dt{
+	font-weight: bold;
+	color: red;
+	padding-left: 10px;
+}
+
+dd{
+	padding-left:20px; 
+}
+
+aside{
+	width: 960px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	background-color:lightgreen;
+	margin-bottom: 30px;
+}
+
